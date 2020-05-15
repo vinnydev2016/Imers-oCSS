@@ -1,0 +1,37 @@
+body{
+   /* background: green; --> cor do fundo */
+   background-image:url('http://www.vanessametonini.com.br/imersaocss/a1/img/fundo.jpg');
+   background-size: auto 100vh; /* autura automatica // viewport height -> se adapta a tela*/
+   height:100vh ; /*altura do body fixa*/
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu{
+    background-color: white;
+}
+
+.menu ul{
+    display: flex; /*deixa o menu na horizontal*/
+    justify-content: space-around; /*espaça os itens do menu*/
+}
+.menu li { /*o efeito é aplicado no último item*/
+    list-style: none; /*tira os pontos da lista*/
+}
+
+a{
+    color: teal;
+    text-decoration: none; /* tira o UNDERLINE */
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.site-subtitle, .site-title{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.site-subtitle{
+    font-style: italic;
+}
